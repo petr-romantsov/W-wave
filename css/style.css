@@ -1213,7 +1213,7 @@ a {
 }
 
 .error-message {
-  padding-left: 25px;
+  margin: 0;
   color: rgb(221, 11, 11);
 }
 
