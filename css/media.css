@@ -1,0 +1,991 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.14,
+* Autoprefixer: v10.4.7
+* Browsers: last 4 version
+*/
+
+@media (max-width: 1200px) {
+
+  .container {
+    padding: 0 100px;
+  }
+
+  .header {
+    position: relative;
+    padding-top: 28px;
+    padding-bottom: 19px;
+  }
+
+  .header__container {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+
+  .header__nav {
+    -webkit-box-ordinal-group: 4;
+        -ms-flex-order: 3;
+            order: 3;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    margin-top: 44px;
+    width: 100%;
+  }
+
+  .header__nav::before {
+    content: "";
+    position: absolute;
+    top: 56%;
+    left: 0;
+    width: 100%;
+    height: 1px;
+    background-color: #e6e8ec;
+  }
+
+  .nav__list {
+    width: 100%;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    gap: 0;
+  }
+
+  .header__logo {
+    margin-right: auto;
+  }
+
+  .header__btn {
+    margin: 0;
+  }
+
+  .hero {
+    border-top: 1px solid #e6e8ec;
+    padding: 91px 0 89px;
+  }
+
+  .hero__content::after {
+    min-width: 258px;
+    background-image: url(../img/hero-micro-tablet.png);
+    background-size: 258px 262px;
+  }
+
+  .hero__content {
+    padding: 0;
+  }
+
+  .hero__descr {
+    margin-bottom: 19px;
+    max-width: 539px;
+  }
+
+  .shows {
+    padding: 93px 0 95px;
+  }
+
+  .shows__left {
+    min-width: 255px;
+  }
+
+  .shows__btn {
+    margin-bottom: 10px;
+  }
+
+  .shows__right {
+    --cards-count: 2;
+  }
+
+  .shows-preview__content {
+    padding: 18px 15px;
+  }
+
+  .shows-preview__date {
+    margin-bottom: 19px;
+  }
+
+  .guests__descr {
+    max-width: 536px;
+  }
+
+  .playlist__container {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+
+  .playlist__right {
+    --cards-count: 3;
+    padding-top: 0;
+  }
+
+  .playlist__item {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+
+  .playlist__link {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+  }
+
+  .playlist__item::after {
+    left:0
+  }
+
+  .playlist__item-content {
+    min-width: 142px;
+    padding: 38px 8px 26px;
+  }
+
+  .radio {
+    padding: 94px 0;
+  }
+
+  .radio__image {
+    padding-top: 124px;
+    min-width: 397px;
+  }
+
+  .radio__image::after {
+    width: 100px;
+    height: 100px;
+    top: 118px;
+    left: 0;
+    background-image: url(../img/radio-steacker-tablet.png);
+  }
+
+  .radio__title::after {
+    background-image: url(../img/radio-wave-tablet.svg);
+  }
+
+  .radio__btn {
+    padding: 21px 13px;
+  }
+
+  .about-us {
+    padding: 94px 0 93px;
+  }
+
+  .about-us__spiral {
+    display: none;
+  }
+
+  .about-us__top {
+    margin-bottom: 30px;
+  }
+
+  .about-us__list {
+    --cards-count: 2;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+
+  .about-us__subdescr {
+    max-width: none;
+  }
+
+  .form__textarea {
+    max-width: 824px;
+  }
+
+  .form__input {
+    min-width: 397px;
+  }
+
+  .footer {
+    background-image: url(../img/footer-wave-tablet.svg);
+  }
+
+ }
+
+@media (max-width: 1023px) {
+
+
+  .form__input {
+    min-width: 395px;
+  }
+
+  .form__input:first-child {
+    margin-bottom: 10px;
+  }
+
+}
+
+@media (max-width: 992px) {
+
+  .container {
+    padding: 0 114px;
+  }
+
+  .header {
+    padding-top: 28px;
+  }
+
+  .header__nav::before {
+    top: 58%;
+  }
+
+  .nav__link {
+    font-size: 16px;
+  }
+
+  .hero__content::after {
+    display: none;
+  }
+
+  .podcasts__item {
+    width: 100%;
+  }
+
+  .shows {
+    position: relative;
+    padding: 93px 0 30px;
+  }
+
+  .shows::after {
+    content: "";
+    position: absolute;
+    bottom: 11.7%;
+    width: 100%;
+    height: 1px;
+    background-color: #e6e8ec;
+  }
+
+  .shows__container {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
+  }
+
+  .shows__title {
+    display: none;
+  }
+
+  .shows__title--reserve {
+    display: block;
+    -webkit-box-ordinal-group: 2;
+        -ms-flex-order: 1;
+            order: 1;
+    margin-bottom: 79px;
+  }
+
+  .shows__right {
+    row-gap: 30px;
+    margin-bottom: 61px;
+  }
+
+  .shows__left {
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    max-width: 100%;
+  }
+
+  .shows__archive {
+    padding-left: 91px;
+  }
+
+  .shows__btn {
+    margin-bottom: 7px;
+  }
+
+  .shows__btn::before {
+    top: -2px;
+    left: -92px;
+    width: 70px;
+    height: 96px;
+  }
+
+  .shows__descr {
+    max-width: 255px;
+  }
+
+  .guests {
+    padding-top: 94px;
+    padding-bottom: 96px;
+  }
+
+  .guests__item {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+
+  .guests__item-image {
+    -ms-flex-item-align: unset;
+        -ms-grid-row-align: unset;
+        align-self: unset;
+  }
+
+  .guests__item-descr {
+    max-width: 362px;
+    margin-bottom: 30px;
+  }
+
+  .playlist {
+    padding: 93px 0 111px;
+  }
+
+  .playlist__right {
+    --cards-count: 2;
+  }
+
+  .radio {
+    padding-top: 54px;
+  }
+
+  .radio__container {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    gap: 45px;
+  }
+
+  .radio__image {
+    padding-top: 0;
+    min-width: 540px;
+  }
+
+  .radio__image::after {
+    top: 0;
+    left: 0;
+    width: 160px;
+    height: 160px;
+    background-image: url(../img/radio-steacker-768.png);
+  }
+
+  .radio__title {
+    max-width: 441px;
+  }
+
+  .radio__title::after {
+    width: 539px;
+    background-image: url(../img/radio-wave-768.svg);
+  }
+
+  .radio__descr {
+    max-width: 540px;
+  }
+
+  .radio__price {
+    margin-bottom: 26px;
+  }
+
+  .about-us {
+    padding: 95px 0 93px;
+  }
+
+  .about-us__top {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+
+  .about-us__image-wrapper {
+    position: relative;
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: flex-end;
+    height: 112px;
+  }
+
+  .about-us__spiral {
+    display: block;
+    position: absolute;
+    top: -2px;
+    left: -114px;
+    min-width: 639px;
+    background-image: url(../img/about-us_spiral-768.svg);
+    background-size: auto;
+    background-position: left;
+  }
+
+  .about-us__star {
+    position: absolute;
+    top: -2px;
+    min-width:  112px;
+    background-image: url(../img/about-us_star-768.svg);
+  }
+
+  .form__textarea {
+    max-width: 540px;
+  }
+
+  .form__input {
+    min-width: 540px;
+  }
+
+  .form__input:not(:nth-last-child(-n+1)) {
+    margin-bottom: 10px;
+  }
+
+  .form__input:first-child {
+    margin-bottom: var(--gap);
+  }
+
+  .footer {
+    background-image: url(../img/footer-wave-768.svg);
+    background-position: center 92%;
+  }
+
+  .footer__top {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    padding: 95px 0 71px;
+  }
+
+  .footer__left {
+    margin-bottom: 75px;
+  }
+
+  .footer__right {
+    max-width: 540px;
+  }
+
+  .footer__list {
+    -webkit-column-gap: 170px;
+       -moz-column-gap: 170px;
+            column-gap: 170px;
+  }
+
+  .footer__item {
+    margin-bottom: 26px;
+  }
+
+  .social {
+    padding: 0 5px;
+  }
+
+  .social__link svg {
+    width: 36px;
+    height: 36px;
+  }
+
+}
+
+@media (max-width: 767px) {
+  .container {
+    padding: 0 32px;
+  }
+
+  .shows-preview {
+    min-width: 200px;
+  }
+
+  .playlist__link {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+
+  .playlist__image {
+    width: 100%;
+  }
+
+  .playlist__item-content {
+    min-width: 113px;
+    padding: 10px;
+  }
+
+  .playlist__band-name {
+    font-size: 12px;
+  }
+
+  .playlist__item-descr {
+    font-size: 9px;
+  }
+}
+
+@media (max-width: 576px) {
+
+  .descr {
+    font-size: 14px;
+  }
+
+  .btn {
+    padding: 17px 45px;
+  }
+
+  .sm-btn {
+    min-width: unset;
+  }
+
+  .section-title {
+    font-size: 24px;
+  }
+
+  .header {
+  padding: 15px 0 10px;
+  }
+
+  .header__nav {
+    margin-top: 27px;
+  }
+
+  .header__nav::before {
+    top: 53%;
+  }
+
+  .nav__list {
+    -ms-flex-wrap: nowrap;
+        flex-wrap: nowrap;
+    gap: 24px;
+    overflow: auto;
+    padding-bottom: 5px;
+  }
+
+  .hero {
+    padding: 40px 0;
+  }
+
+  .hero__title {
+    margin-bottom: 7px;
+    font-size: 32px;
+  }
+
+  .hero__btn {
+    font-size: 16px;
+  }
+
+  .podcasts {
+    padding: 54px 0;
+  }
+
+  .podcasts__list {
+    gap: 31px;
+  }
+
+  .podcasts__title {
+    margin-bottom: 20px;
+  }
+
+  .podcast-preview__content {
+    padding: 29px 16px;
+  }
+
+  .podcast-preview__link {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+
+  .podcast-preview__image {
+    min-height: 72px;
+    width: 100%;
+  }
+
+  .podcast-preview__image--1 {
+    background-image: url(../img/podcasts-1-mobile.jpg);
+  }
+  .podcast-preview__image--2 {
+    background-image: url(../img/podcasts-2-mobile.jpg);
+  }
+  .podcast-preview__image--3 {
+    background-image: url(../img/podcasts-3-mobile.jpg);
+  }
+  .podcast-preview__image--4 {
+    background-image: url(../img/podcasts-4-mobile.jpg);
+  }
+  .podcast-preview__image--5 {
+    background-image: url(../img/podcasts-5-mobile.jpg);
+  }
+  .podcast-preview__image--6 {
+    background-image: url(../img/podcasts-6-mobile.jpg);
+  }
+  .podcast-preview__image--7 {
+    background-image: url(../img/podcasts-7-mobile.jpg);
+  }
+  .podcast-preview__image--8 {
+    background-image: url(../img/podcasts-8-mobile.jpg);
+  }
+
+  .podcast-preview__title {
+    font-size: 16px;
+    margin-bottom: 3px;
+  }
+
+  .podcast-preview__author {
+    font-size: 12px;
+  }
+
+  .podcast-preview__date {
+    top: 0;
+    bottom: unset;
+  }
+
+  .shows {
+    position: relative;
+    padding: 55px 0 46px;
+  }
+
+  .shows__right {
+    row-gap: var(--gap);
+    margin-bottom: 30px;
+    padding-top: 0;
+  }
+
+  .shows__title {
+    margin: 0;
+  }
+
+  .shows__descr {
+    min-width: 100%;
+  }
+
+  .shows-preview {
+    min-width: 113px;
+    min-height: 149px;
+    height: 100%;
+  }
+
+  .shows-preview::before {
+    padding-top: 44%;
+  }
+
+  .shows-preview--img1::before {
+    background-image: url(../img/shows-1-mobile.jpg);
+  }
+  .shows-preview--img2::before {
+    background-image: url(../img/shows-2-mobile.jpg);
+  }
+  .shows-preview--img3::before {
+    background-image: url(../img/shows-3-mobile.jpg);
+  }
+  .shows-preview--img4::before {
+    background-image: url(../img/shows-4-mobile.jpg);
+  }
+  .shows-preview--img5::before {
+    background-image: url(../img/shows-5-mobile.jpg);
+  }
+  .shows-preview--img6::before {
+    background-image: url(../img/shows-6-mobile.jpg);
+  }
+
+  .shows-preview__content {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    padding: 8px 9px 11px;
+    min-height: 99px;
+  }
+
+  .shows-preview__title {
+    margin-bottom: 4px;
+    font-size: 12px;
+    line-height: 105%;
+  }
+
+  .shows-preview__date {
+    margin: 0;
+    margin-bottom: auto;
+    font-size: 9px;
+    line-height: 100%;
+  }
+
+  .shows-preview__link {
+    font-size: 12px;
+  }
+
+  .shows__archive {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
+    padding-left: 68px;
+  }
+
+  .shows__descr {
+    margin-bottom: 7px;
+  }
+
+  .shows__btn  {
+    padding: 7px 29px;
+    max-width: 110px;
+  }
+
+  .shows__btn::before {
+    top: -71px;
+    left: -92px;
+    width: 77px;
+    height: 105px;
+  }
+
+  .shows::after {
+    content: "";
+    position: absolute;
+    bottom: 22.6%;
+    width: 100%;
+    height: 1px;
+    background-color: #e6e8ec;
+  }
+
+  .guests {
+    padding-top: 54px;
+    padding-bottom: 53px;
+  }
+
+  .guests__title {
+    margin-bottom: 12px;
+  }
+
+  .guests__span {
+    margin: 0;
+    font-size: 14px;
+  }
+
+  .guests__descr {
+    margin-bottom: 27px;
+  }
+
+  .guests__item {
+    gap: 11px;
+  }
+
+  .guests__item:not(:last-child) {
+    margin-bottom: 27px;
+  }
+
+  .guests__item-descr {
+    font-size: 16px;
+    margin-bottom: 29px;
+    line-height: 182%;
+  }
+
+  .guests__btn {
+    padding: 7px 13px;
+  }
+
+  .playlist {
+    padding-top: 55px;
+    padding-bottom: 52px;
+  }
+
+  .playlist__container {
+    gap: 29px;
+  }
+
+  .playlist__title {
+    margin-bottom: 9px;
+  }
+
+  .playlist__descr {
+    font-size: 12px;
+    line-height: 17px;
+  }
+
+  .playlist__copy {
+    font-size: 12px;
+  }
+
+  .playlist__age {
+    font-size: 12px;
+  }
+
+  .playlist__descr {
+    min-width: 100%;
+  }
+
+  .playlist__item-content {
+    padding: 8px 9px;
+  }
+
+  .playlist__band-name {
+    margin-bottom: 4px;
+  }
+
+  .playlist__item::after {
+    left: unset;
+    right: 0;
+  }
+
+  .radio {
+    padding: 54px 0;
+  }
+
+  .radio__container {
+    gap: 32px;
+  }
+
+  .radio__title {
+    margin-bottom: 39px;
+  }
+
+  .radio__descr {
+    line-height: 158%;
+  }
+
+  .radio__descr--2 {
+    margin-bottom: 10px;
+  }
+
+  .radio__title::after {
+    bottom: -21px;
+    width: 100%;
+    background-image: url(../img/radio-wave-mobile.svg);
+  }
+
+  .radio__image {
+    min-width: 100%;
+  }
+
+  .radio__image::after {
+    left: 1px;
+    width: 62px;
+    height: 62px;
+  }
+
+  .radio__price {
+    margin-bottom: 17px;
+    font-size: 24px;
+  }
+
+  .radio__btn {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    gap: 5px;
+    padding: 13px 15px;
+    font-size: 16px;
+  }
+
+  .about-us {
+    padding: 55px 0;
+  }
+
+  .about-us__title {
+    margin-bottom: 11px;
+  }
+
+  .about-us__line {
+    margin-bottom: 4px;
+    font-size: 14px;
+  }
+
+  .about-us__descr {
+    line-height: 157%;
+  }
+
+  .about-us__image-wrapper {
+    display: none;
+  }
+
+  .about-us__image {
+    margin-bottom: 14px;
+    width: 100%;
+  }
+
+  .about-us__name {
+    max-width: 109px;
+    font-size: 14px;
+    line-height: 125%;
+  }
+
+  .about-us__subdescr {
+    font-size: 12px;
+    line-height: 130%;
+  }
+
+  .form__top {
+    margin-bottom: 25px;
+  }
+
+  .form__bottom {
+    margin-bottom: 28px;
+  }
+
+  .form__textarea {
+    padding: 14px 23px;
+    max-width: 256px;
+    border-radius: 20px;
+    font-size: 16px;
+  }
+
+  .form__input {
+    padding: 0 22px;
+    min-width: 256px;
+    min-height: 50px;
+    font-size: 16px;
+  }
+
+  .form__btn {
+    margin-bottom: 21px;
+    font-size: 16px;
+  }
+
+  .form__checkbox {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+
+  .form__checkbox-text {
+    font-size: 9px;
+  }
+
+  .footer {
+    background-image: url(../img/footer-wave-mobile.svg);
+    background-position: center 92.5%;
+  }
+
+  .footer__top {
+    padding: 54px 0 50px;
+  }
+
+  .footer__right {
+    -ms-flex-item-align: start;
+        align-self: flex-start;
+  }
+
+  .footer__list {
+    -webkit-column-count: 2;
+       -moz-column-count: 2;
+            column-count: 2;
+    -webkit-column-gap: 79px;
+       -moz-column-gap: 79px;
+            column-gap: 79px;
+  }
+
+  .footer__item {
+    margin-bottom: 17px;
+  }
+
+  .footer__link {
+    font-size: 12px;
+  }
+
+  .footer__copy {
+    font-size: 12px;
+  }
+
+}
